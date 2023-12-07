@@ -43,3 +43,16 @@ To run this project, follow these steps:
   Replace `:id` with the ID of the book you want to update.
 
 That's it! You should now be able to run and use the Library Management API. Happy coding!
+
+6. How the body of post/put look like:
+
+  {
+    "title": "The Alchemist",
+    "authorName": "Paulo Coelho",
+    "publication": "HarperCollins",
+    "description": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988. Originally written in Portuguese, it became a widely translated international bestseller.",
+    "price": 200,
+    "available": true,
+    "quantity": 5
+  }
+
